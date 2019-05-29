@@ -11,8 +11,24 @@
     </parent>
 
     <groupId>com.imooc</groupId>
-    <artifactId>client</artifactId>
+    <artifactId>product-client</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
-    
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.imooc</groupId>
+            <artifactId>product-common</artifactId>
+        </dependency>
+    </dependencies>
+
 </project>
